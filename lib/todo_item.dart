@@ -7,7 +7,7 @@ class TodoItem {
   final String title;
 
   @HiveField(1, defaultValue: false)
-  final bool isCompleted;
+  bool isCompleted;
 
   TodoItem({required this.title, required this.isCompleted});
 }
